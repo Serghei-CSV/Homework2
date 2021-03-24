@@ -8,11 +8,11 @@ public class Temperatura {
         double convertor;
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Celsius:");
+        System.out.println("Fahrenherit:");
 
         double celsius =scan.nextDouble();
         convertor = (celsius - 32 ) / 1.8;
-        System.out.println("Rezultatul:"+convertor);
+        System.out.println("Celsius:"+convertor);
 
 
 
