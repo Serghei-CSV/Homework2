@@ -1,29 +1,45 @@
 package md.tekwill.homework2003;
 
+ import java.util.Scanner;
+
 public class Distanta {
     public static void main(String[] args) {
-        double metre = 2500;
-        int hour = 5;
-        int minutes = 56;
-        int seconds = 23;
-        double mile;
-        mile = metre * 0.000621371;
-        double km;
-        km = metre / 1000;
-        int sec;
-        sec = 23+(56*60)+(5*3600);
-        double m_s;
-        m_s = metre/sec;
-        double km_h;
-        km_h = m_s*3.6;
-        double m_h;
-        m_h = m_s*2.236936;
-        System.out.println( "mile:" +mile );
-        System.out.println( "km:" +km );
-        System.out.println( "sec:" +sec );
-        System.out.println( "m/s:" +m_s );
-        System.out.println( "km/h:" +km_h );
-        System.out.println( "m/h:" +m_h );
+        double convert;
+
+        Scanner metri = new Scanner(System.in);
+        System.out.println("Metri:");
+        double metru = metri.nextDouble();
+
+        Scanner hour = new Scanner(System.in);
+        System.out.println("Hours:");
+        int h = hour.nextInt();
+
+        Scanner minute = new Scanner(System.in);
+        System.out.println("Minutes:");
+        int min = minute.nextInt();
+
+        Scanner second = new Scanner(System.in);
+        System.out.println("Seconds:");
+        int sec = second.nextInt();
+
+        int sumOfSeconds;
+
+        sumOfSeconds = sec+(min*60)+(h*3600);
+        double convertMetriPerSecond;
+
+        convertMetriPerSecond = metru / sumOfSeconds;
+        System.out.println("m/s:"+convertMetriPerSecond);
+
+        double convertKmPerHour;
+        convertKmPerHour = convertMetriPerSecond * 3.6;
+        System.out.println("km/h:"+convertKmPerHour);
+
+        double convertMilesPerHour;
+        convertMilesPerHour = convertMetriPerSecond * 2.236936;
+        System.out.println("miles/h:"+convertMilesPerHour);
+
+
+
         }
 
 }

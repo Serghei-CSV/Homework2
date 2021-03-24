@@ -1,10 +1,21 @@
 package md.tekwill.homework2003;
 
+ import java.util.Scanner;
+
 public class Temperatura {
     public static void main(String[] args) {
-        double Fahrenheit = 212.0;
-        double total;
-        total = (Fahrenheit - 32 ) / 1.8 ;
-        System.out.println("Celsius:"+total);
+
+        double convertor;
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Celsius:");
+
+        double celsius =scan.nextDouble();
+        convertor = (celsius - 32 ) / 1.8;
+        System.out.println("Rezultatul:"+convertor);
+
+
+
     }
+
 }
