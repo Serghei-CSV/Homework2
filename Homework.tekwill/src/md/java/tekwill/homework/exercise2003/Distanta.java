@@ -1,6 +1,6 @@
 package md.tekwill.homework2003;
 
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Distanta {
     public static void main(String[] args) {
@@ -40,6 +40,6 @@ public class Distanta {
 
 
 
-        }
+    }
 
 }

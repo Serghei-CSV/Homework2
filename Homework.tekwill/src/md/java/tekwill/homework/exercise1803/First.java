@@ -1,6 +1,6 @@
 package md.tekwill.exercise1803;
 
-public class Only {
+public class First {
     public static void main(String[] args){
         System.out.println("Ex1:Hope is a dangerous thing my friend, it can kill a man.");
         System.out.println("Ex2:Hope is a dangerous thing my friend, it can kill a man.__The Shawshank redemption__Red__1994");
