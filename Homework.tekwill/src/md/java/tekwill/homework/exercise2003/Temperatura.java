@@ -1,4 +1,4 @@
-package md.tekwill.homework2003;
+package md.java.tekwill.homework.exercise2003;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Temperatura {
         double convertor;
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Farenheit:");
+        System.out.println("Fahrenheit:");
 
         double celsius =scan.nextDouble();
         convertor = (celsius - 32 ) / 1.8;
