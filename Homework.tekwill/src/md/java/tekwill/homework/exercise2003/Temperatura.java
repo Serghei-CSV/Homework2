@@ -8,7 +8,7 @@ public class Temperatura {
         double convertor;
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Celsius:");
+        System.out.println("Farenheit:");
 
         double celsius =scan.nextDouble();
         convertor = (celsius - 32 ) / 1.8;
