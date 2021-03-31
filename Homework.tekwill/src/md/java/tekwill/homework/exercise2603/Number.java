@@ -8,8 +8,8 @@ public class Number {
         System.out.print("Plese enter your name:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
-        System.out.println("Hello:"+name );
-        System.out.println("Choose a number "+name+": 35/-35");
+        System.out.println("Hello:" + name);
+        System.out.println("Choose a number " + name + ": 35/-35");
         String answer = scanner.nextLine();
 
 

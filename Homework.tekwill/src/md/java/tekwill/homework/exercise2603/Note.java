@@ -1,6 +1,6 @@
 package md.java.tekwill.homework.exercise2603;
 
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class Note {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Note {
         String name = scanner.nextLine();
 
         if (name.contains("A"))
-            System.out.println("The numeric value for grade A is 4" );
+            System.out.println("The numeric value for grade A is 4");
         else if (name.contains("B"))
             System.out.println("The numeric value for grade B is 3");
         else if (name.contains("C"))
@@ -19,7 +19,7 @@ public class Note {
         else if (name.contains("E"))
             System.out.println("The numeric value for grade E is 0");
         else
-        System.out.println(name+" "+" is an invalid grade" );
+            System.out.println(name + " " + " is an invalid grade");
 
 
     }

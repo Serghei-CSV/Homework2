@@ -2,7 +2,7 @@ package md.java.tekwill.homework.exercise2603;
 
 import java.util.Scanner;
 
-public class Animals{
+public class Animals {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose an animal: ");

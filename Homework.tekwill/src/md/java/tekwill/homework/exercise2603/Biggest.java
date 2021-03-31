@@ -18,16 +18,13 @@ public class Biggest {
 
         if (firstnumber > secondnumber)
             if (firstnumber > thirdnumber)
-                System.out.println("The biggest: "+firstnumber);
-            if (secondnumber > firstnumber)
-                if (secondnumber > thirdnumber)
-                    System.out.println("The biggest: "+secondnumber);
-                if (thirdnumber > firstnumber)
-                    if (thirdnumber > secondnumber)
-                        System.out.println("The biggest: "+thirdnumber);
-
-
-
+                System.out.println("The biggest: " + firstnumber);
+        if (secondnumber > firstnumber)
+            if (secondnumber > thirdnumber)
+                System.out.println("The biggest: " + secondnumber);
+        if (thirdnumber > firstnumber)
+            if (thirdnumber > secondnumber)
+                System.out.println("The biggest: " + thirdnumber);
 
 
     }
